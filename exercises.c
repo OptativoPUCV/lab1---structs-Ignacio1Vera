@@ -28,7 +28,20 @@ Ejercicio 2: Invertir un Arreglo
 Descripción: Escribe una función que tome un arreglo y su tamaño, y luego
 invierta el orden de sus elementos.
 */
-void reverseArray(int arr[], int size) {}
+void reverseArray(int arr[], int size) 
+{
+    int inicio =0;
+    int final = size -1;
+    
+    while (inicio < final) 
+    {
+        int temp =arr[inicio];
+        arr[inicio] =arr[final];
+        arr[final] =temp;
+        inicio++;
+        final--;
+    }
+}
 
 /*
 Ejercicio 3: Filtrar Números Pares
@@ -36,7 +49,14 @@ Descripción: Escribe una función que tome un arreglo de enteros
 y su tamaño, y luego devuelva un nuevo arreglo que contenga solo
 los números pares del arreglo original.
 */
-int *filterEvenNumbers(int arr[], int size, int *newSize) { return NULL; }
+int *filterEvenNumbers(int arr[], int size, int *newSize) 
+{ 
+    
+    
+    
+    
+    return NULL; 
+}
 
 /*
 Ejercicio 4: Fusión de dos Arreglos Ordenados
